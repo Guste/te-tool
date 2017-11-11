@@ -40,7 +40,7 @@ program.parse(process.argv)
 if(!program.args.length){
   program.help()
 }
-console.log(program.args)
+
 if(!program.add&&!program.list&&!program.delete){
     require('../command/init')(program.args)
 }
