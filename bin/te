@@ -11,13 +11,7 @@ program
 program
 	.usage('<command>')
 
-program
-	.command('add')
-	.description('Add a new template')
-  .alias('a')
-  .action(() => {
-    require('../command/add')()
-  })
+
 
 program
 	.command('list')
@@ -27,13 +21,7 @@ program
 		require('../command/list')()
 	})
 
-program
-	.command('delete')
-	.description('Delete a template')
-	.alias('d')
-	.action(() => {
-		require('../command/delete')()
-	})
+
 
 program.parse(process.argv)
 

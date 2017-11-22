@@ -1,1 +1,12 @@
-{"tpl":{"default":{"url":"https://github.com/Guste/te-default-template.git","branch":"master"}}}
+{
+    "tpl": {
+        "default": {
+            "url": "https://github.com/Guste/te-default-template.git",
+            "branch": "master"
+        },
+        "vuem": {
+            "url": "https://github.com/Guste/te-vuem-template.git",
+            "branch": "master"
+        }
+    }
+}
